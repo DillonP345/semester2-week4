@@ -15,5 +15,10 @@
     Store your answer in array c
     Print your final answer
     */
+    for (int i = 0; i <6; ++i){
+      c[i] = a[i] + b[i];
+      printf("c[%d] = %.1f\n", i, c[i]);
+    }
+    
     return 0;
  }
